@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piedra, Papel o Tijera</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bienvenido al juego de <br>Piedra, Papel o Tijera</h1>
+    <h6>Por favor, selecciona tu arma</h6>
+    <div class="game-container">
+      <div class="choices">
+        <img src="..//Game-Piedra-Papel-Tijera/imgs/rock.png" alt="Piedra" onclick="playGame('piedra')">
+        <img src="..//Game-Piedra-Papel-Tijera/imgs/paper.png" alt="Papel" onclick="playGame('papel')">
+        <img src="..//Game-Piedra-Papel-Tijera/imgs/scissors.png" alt="Tijeras" onclick="playGame('tijeras')">
+      </div>
+      <div id="resultado"></div>
+      <div id="images">
+        <img id="Ganador" src="..//Game-Piedra-Papel-Tijera/imgs/ganador.png" alt="Ganador" style="display: none; padding: 0px 0px 0px 140px;">
+        <img id="Perdedor" src="..//Game-Piedra-Papel-Tijera/imgs/perdedor.png" alt="Perdedor" style="display: none; padding: 0px 0px 0px 140px;">
+        <img id="Empate" src="..//Game-Piedra-Papel-Tijera/imgs/empate.png" alt="Empate" style="display: none; padding: 0px 0px 0px 140px;">
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
